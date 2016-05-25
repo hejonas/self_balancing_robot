@@ -26,7 +26,7 @@ EXTENSION = .cpp
 
 #Combine them into the output file
 #Set your desired exe output file name here
-output_file_name.a: $(OBJ)
+self_balancing_robot.a: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS) $(LIBS)
 
 #Cleanup
